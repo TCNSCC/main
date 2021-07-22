@@ -1,7 +1,10 @@
 body{background-color: #f7f7f7;}
 body{font-size:x-large}
+
+
+
 input[type=text] {
-    width: 230px;
+    width: 260px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -15,6 +18,22 @@ input[type=text] {
   input[type=text]:focus {
     width: 30%;
   }
+  input[type=email] {
+    width: 260px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    border-color: #6b86a0;
+    background-color:  #f7f7f7;
+    font-size:16px;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=email]:focus {
+    width: 45%;
+  }
+
 
   select {
   width: 40%;
@@ -32,4 +51,3 @@ input[type=number] {
   background-color:  #f7f7f7;
   border-bottom: 2px solid #9bbbd8;
 }
-

@@ -1,0 +1,49 @@
+.button {
+    width: 70%;
+    border: none;
+    color: f5f5f5;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #f5f5f5; 
+    color: black; 
+    border: 2px solid #c54646;
+  }
+  
+  .button1:hover {
+    background-color: #c54646;
+    color: #f5f5f5;
+  }
+  
+.t1{
+     width: 100%;
+}
+div {
+    width: 900px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:#e95151; left:200px; top:0px;}
+    50%  {background-color:#921e1e; left:200px; top:200px;}
+    75%  {background-color:#d38989; left:0px; top:200px;}
+    100% {background-color:#a84343; left:0px; top:0px;}
+  }
+  #grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
