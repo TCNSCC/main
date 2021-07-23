@@ -184,7 +184,7 @@ input[type=number] {
   border-bottom: 2px solid #9bbbd8;
 }
 /* Style the nav links */
-.nav a {
+.topnav a {
   background-color: #f5f5f5;  
   float: left;
   display: block;
@@ -195,7 +195,7 @@ input[type=number] {
 }
 
 /* Change color on hover */
-.nav a:hover {
+.topnav a:hover {
   background-color: #f5f5f5;
   color: #b67987;
 }
