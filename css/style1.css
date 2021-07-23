@@ -204,6 +204,12 @@ input[type=number] {
   color: #b67987;
 }
         
+#grad1 {
+  height: 80px;
+  width: 600px;
+  background-color: #6d858b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(180, 205, 233) , rgb(79, 113, 177));
+}
        /* Style the footer */
   footer {
       background-color: #f5f5f5;
