@@ -29,21 +29,16 @@
 div {
     width: 900px;
     height: 40px;
-    background-color: red;
+    background-color: #c54646;
     position: relative;
     animation-name: example;
     animation-duration: 3s;
   }
   
   @keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
+    0%   {background-color:#c54646; left:0px; top:0px;}
     25%  {background-color:#e95151; left:200px; top:0px;}
     50%  {background-color:#921e1e; left:200px; top:200px;}
     75%  {background-color:#d38989; left:0px; top:200px;}
     100% {background-color:#a84343; left:0px; top:0px;}
-  }
-  #grad1 {
-    height: 200px;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, red, yellow);
   }
