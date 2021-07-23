@@ -24,8 +24,8 @@
       </nav>
       <br/>
 <article>
-        <b><h1 style="font-size:15px; color: #6ba4b3 ;text-align: center; font-size:xxx-large;"> GET NEWS AND OFFERS FROM<br/>
-        SNKR BEAST!!!</h1>
+        <b><h1 style="font-size:15px; color: #6ba4b3 ;text-align: center; font-size:xxx-large;"> SNKR BEAST 
+          <br/>WEB EXPERIENCE</h1>
         </article>
 
 
@@ -55,7 +55,7 @@
 <input type="text" id="myCountry" name="country" list="countryList" placeholder="Select A Country ">
 
 <datalist id="countryList">
-  <label for="suggestion">or pick a fruit</label>
+  <label for="suggestion">pick a country</label>
   <select id="suggestion" name="altCountry">
     <option>United States (US)</option>
     <option>Canada (CA)</option>
@@ -89,14 +89,32 @@ E-mail:
 
  
 <!--promotional email-->
-Do you wish to receive promotional emails:<br/>
+Do you believe you had an good overall experience on this site:<br/>
 <br/>
 
-<input type="radio" id="email1" name="email" value="yes">
-<label for="email1">Yes</label><br>  
-<input type="radio" id="email2" name="email" value="no">
+<input type="radio" id="q1" name="question" value="yes">
+<label for="11">Yes</label><br>  
+<input type="radio" id="q2" name="question" value="no">
 <label for="email2">No</label><br><br><br/>
+<!--experience to better website-->
+Would you say had an good overall experience on this site:<br/>
+<br/>
 
+<input type="radio" id="q3" name="question2" value="yes">
+<label for="q3">Yes</label><br>  
+<input type="radio" id="q4" name="question2" value="no">
+<label for="q4">No</label><br><br><br/>
+
+<!--experience to better website-->
+Would you reccomend this site to someone else:<br/>
+<br/>
+
+<input type="radio" id="q5" name="question3" value="yes">
+<label for="q5">Yes</label><br>  
+<input type="radio" id="q6" name="question3" value="no">
+<label for="q6">No</label><br><br><br/>
+
+<!--validation phone number-->
 <label>Enter a valid phone number:
     (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2" maxlength="3"/>)-
      <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2" maxlength="3"/> -
@@ -105,6 +123,11 @@ Do you wish to receive promotional emails:<br/>
  
   <br/> 
 <br/>
+<label>Enter a valid postal code:
+  <input id="zip" name="zip" type="text" inputmode="numeric" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder= "i.e B4T 7G5">
+<br/>
+<br/>
+
 <!--where to send info-->
 <form action="mailto:stephen.franks@nscc.ca?subject=From%20our%20Website"
 method="post" enctype="text/plain">
@@ -115,6 +138,7 @@ method="post" enctype="text/plain">
 
 <br/>
 <br/>
+<!--sumbit button-->
 <input type="submit" value="Submit">
 </td>
 <td></td>

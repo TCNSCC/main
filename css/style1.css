@@ -1,4 +1,4 @@
-
+/*to enable smooth scrolling*/
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +13,7 @@ html {
     padding: 8px 8px;
   }
 }
+/* make responsive*/
 @viewport {
     width:fit-content;
     zoom: 1.1;
@@ -40,14 +41,14 @@ html {
 
   
   
-  
+  /*img respionsive code*/
   .responsive {
       width: 100%;
       max-width: 400px;
       height: auto;
     }
   
-  
+  /* additonal info to make certain changes*/
   body {background-color: #f5f5f5;
       
           font-family:monospace; 
@@ -86,6 +87,7 @@ a:hover {
 a:active {
   color: rgb(103, 103, 119);
 }
+/*shop button code*/
 .button {
   width: 70%;
   border: none;
@@ -110,10 +112,11 @@ a:active {
   background-color: #c54646;
   color: #f5f5f5;
 }
-
+/*second table code*/
 .t1{
    width: 100%;
 }
+/*animation code*/
 #animation {
   width: 900px;
   height: 40px;
@@ -130,6 +133,7 @@ a:active {
   75%  {background-color:#d38989; left:0px; top:200px;}
   100% {background-color:#a84343; left:0px; top:0px;}
 }
+/*form code*/
 body{background-color: #f7f7f7;}
 body{font-size:x-large}
 
